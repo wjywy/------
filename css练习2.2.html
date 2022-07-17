@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="add hello"> <img src="./assets/add.png" alt="增加"></div>
+        <div class="catalogue hello"><img src="./assets/catalogue.png" alt="目录" ></div>
+        <div class="discard hello"><img src="./assets/diacard.png" alt="打折" ></div>
+        <div class="instrction hello"><img src="./assets/instrction.png" alt="交流" ></div>
+        <div class="message hello"><img src="./assets/message.png  " alt="文本" ></div>
+        <div class="transtation hello"><img src="./assets/transtation.png" alt="运输"></div>
+        <div class="just soso hello"> <img src="./assets/just soso.png" alt="一般啦"></div>
+        <div class="password hello"> <img src="./assets/password.png" alt="密码"></div>
+        <div class="anger hello"><img src="./assets/anger.png" alt="生气啦"></div>
+        <div class="instruction hello"><img src="./assets/very instruction .png" alt="很好"></div>
+    </div>
+</body>
+<style>
+    .hello {
+        text-align: center;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .add {
+        grid-area: 1/2/3/4;
+    }
+
+    .anger {
+        grid-area: 3/1/5/3;
+    }
+
+    div div {
+        background-color: blue;
+    }
+
+</style>
+
+</html>

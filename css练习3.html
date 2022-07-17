@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css练习3</title>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="box2">
+            <div class="discard"></div>
+            <div class="bottomBox">
+                <div class="bottomLeft totalBottom">
+                    <div><img src="./assets/anger.png" alt="生气"></div>
+                    <div class="word1">ALL-in-one new constauction</div>
+                    <div class="word2">many apples ilove apple my english is bad
+                        please hug me i want to a home where is shanghai
+                    </div>
+                </div>
+                <div class="bottomMiddle totalBottom">
+                    <div><img src="./assets/just soso.png" alt="一般"></div>
+                    <div class="word1">ALL-in-one new constauction</div>
+                    <div class="word2">many apples ilove apple my english is bad
+                        please hug me i want to a home where is shanghai</div>
+                </div>
+                <div class="bottomRight totalBottom">
+                    <div><img src="./assets/very instruction .png" alt="还行"></div>
+                    <div class="word1">ALL-in-one new constauction</div>
+                    <div class="word2">many apples ilove apple my english is bad
+                        please hug me i want to a home where is shanghai</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .box {
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        height: 710px;
+    }
+
+    .box2 {
+        width: 1450px;
+    }
+
+    .discard {
+        margin-top: 22px;
+        height: 500px;
+        background-color: pink;
+        background-image:url(./assets/qq.png) ;
+
+    }
+
+    .bottomBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    .totalBottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .word1 {
+        font-weight: 800;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .word2 {
+        font-weight: 100;
+        font-size: x-small;
+        width: 200px;
+    }
+</style>
+
+</html>

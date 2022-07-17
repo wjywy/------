@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css练习</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="topBox">
+            <img src="./assets/anger.png" alt="我很生气" class="picture">
+            <div class="middleBox">
+                <div class="connection">连接</div>
+                <div class="lack"></div>
+                <div class="word">ZENHOMECLOUD</div>
+            </div>
+        </div>
+        <div class="bottomBox">打破企业间壁垒。提供便捷的接入方式，实现不企业，
+            不同品牌、不同类型间的家电的数据互联互通和数据协同</div>
+    </div>
+</body>
+<style>
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 370px;
+        height: 350px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 1px solid pink;
+    }
+
+    .topBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        background-color: skyblue;
+    }
+
+    .picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .middleBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .connection {
+        font-weight: 800;
+        font-size: x-large;
+        color: white;
+    }
+
+    .lack {
+        background-color: gray;
+        height: 2px;
+        width: 150px;
+    }
+
+    .word {
+        font-weight: 200;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .bottomBox {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: grey;
+    }
+</style>
+
+</html>
